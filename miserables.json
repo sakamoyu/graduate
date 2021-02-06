@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {"id": "Onomatope", "group": 1},
+    {"id": "CV", "group": 2},
+    {"id": "CVCV", "group": 2},
+    {"id": "a", "group": 3},
+    {"id": "i", "group": 3},
+    {"id": "u", "group": 3},
+    {"id": "e", "group": 3},
+    {"id": "o", "group": 3},
+    {"id": "aa", "group": 4},
+    {"id": "ai", "group": 4},
+
+  ],
+  "links": [
+    {"source": "Onomatope", "target": "CV", "value": 1},
+    {"source": "Onomatope", "target": "CVCV", "value": 8},
+    {"source": "CV", "target": "a", "value": 10},
+    {"source": "CV", "target": "i", "value": 6},
+    {"source": "CV", "target": "u", "value": 1},
+    {"source": "CV", "target": "e", "value": 1},
+    {"source": "CV", "target": "o", "value": 1},
+    {"source": "CVCV", "target": "aa", "value": 1},
+    {"source": "CVCV", "target": "ai", "value": 2},
+  ]
+}
